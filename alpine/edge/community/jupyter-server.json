@@ -1,12 +1,9 @@
 {
-  "name": "pcre2",
+  "name": "jupyter-server",
   "secfixes": {
-    "10.40-r0": [
-      "CVE-2022-1586",
-      "CVE-2022-1587"
-    ],
-    "10.41-r0": [
-      "CVE-2022-41409"
+    "2.7.3-r0": [
+      "CVE-2023-39968",
+      "CVE-2023-40170"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -15,11 +12,12 @@
     "armhf",
     "armv7",
     "ppc64le",
+    "riscv64",
     "s390x",
     "x86",
     "x86_64"
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
-  "reponame": "main",
-  "distroversion": "v3.18"
+  "reponame": "community",
+  "distroversion": "edge"
 }
