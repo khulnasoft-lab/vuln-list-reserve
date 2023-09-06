@@ -1,6 +1,6 @@
 {
   "id": "GHSA-hcpj-qp55-gfph",
-  "modified": "2023-04-11T01:39:15.470472Z",
+  "modified": "2023-08-25T16:19:03.053172Z",
   "published": "2022-12-06T06:30:17Z",
   "aliases": [
     "CVE-2022-24439"
@@ -112,6 +112,12 @@
         "3.1.8",
         "3.1.9"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "git.repo.base.Repo.clone",
+          "git.repo.base.Repo.clone_from"
+        ]
+      },
       "database_specific": {
         "last_known_affected_version_range": "\u003c= 3.1.29",
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/12/GHSA-hcpj-qp55-gfph/GHSA-hcpj-qp55-gfph.json"
@@ -149,7 +155,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/07/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AV5DV7GBLMOZT7U3Q4TDOJO5R6G3V6GH/"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IKMVYKLWX62UEYKAN64RUZMOIAMZM5JN/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PF6AXUTC5BO7L2SBJMCVKJSPKWY52I5R/"
     },
     {
       "type": "WEB",
