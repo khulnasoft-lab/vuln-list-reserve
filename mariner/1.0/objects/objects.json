@@ -1,12 +1,272 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27741001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27726001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27725001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27724001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27723001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27625001",
+      "Version": "1",
+      "Name": "openssh"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27514001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27513001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27512001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27511001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27510001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27508001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27507001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27495001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27424001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27423001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27407001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27400001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27399001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27364001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27363001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27362001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27359001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27358001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27357001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27355001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27354001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27353001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27333001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27328001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27290001",
+      "Version": "1",
+      "Name": "uclibc-ng"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27289001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27288001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27287001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27268001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27267001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27266001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27265001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27225001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27224001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27223001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27222001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27212001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27211001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27209001",
+      "Version": "1",
+      "Name": "bind"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27196001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27194001",
+      "Version": "1",
+      "Name": "perl"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27193001",
       "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27182001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27158001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27157001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27147001",
+      "Version": "1",
+      "Name": "yajl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27128001",
+      "Version": "1",
+      "Name": "mozjs60"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27055001",
       "Version": "1",
       "Name": "kernel"
     },
@@ -24,6 +284,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27052001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27034001",
+      "Version": "1",
+      "Name": "libcap"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27002001",
@@ -97,6 +362,11 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26774001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26773001",
       "Version": "1",
       "Name": "kernel"
     },
@@ -186,6 +456,16 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26360001",
+      "Version": "1",
+      "Name": "cloud-init"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26343001",
+      "Version": "1",
+      "Name": "cloud-init"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26337001",
       "Version": "1",
       "Name": "kernel"
@@ -229,6 +509,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26262001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26261001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26260001",
@@ -301,6 +586,11 @@
       "Name": "protobuf-c"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26102001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26092001",
       "Version": "0",
       "Name": "grpc"
@@ -356,6 +646,16 @@
       "Name": "hyperv-daemons"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25964001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25959001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25951001",
       "Version": "1",
       "Name": "openssl"
@@ -379,6 +679,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:25913001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25911001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25904001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25890001",
@@ -422,6 +732,11 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25753001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25752001",
       "Version": "1",
       "Name": "kernel"
     },
@@ -677,17 +992,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13757001",
-      "Version": "0",
+      "Version": "1",
       "Name": "nodejs"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13756001",
-      "Version": "0",
+      "Version": "1",
       "Name": "nodejs"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13755001",
-      "Version": "0",
+      "Version": "1",
       "Name": "nodejs"
     },
     {
@@ -922,7 +1237,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13363001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -1137,7 +1452,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13165001",
-      "Version": "0",
+      "Version": "1",
       "Name": "mozjs60"
     },
     {
@@ -1152,7 +1467,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13159001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -1702,17 +2017,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11492001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11491001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11490001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -1722,7 +2037,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11488001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -1737,7 +2052,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11472001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -1802,17 +2117,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11418001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11417001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11416001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
@@ -2197,7 +2512,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11085001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kernel"
     },
     {
