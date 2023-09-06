@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-11-21T23:46:33Z",
+  "UpdatedAt": "2023-08-18T20:44:40Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.apache.sshd:sshd-common"
@@ -23,6 +23,9 @@
         "Url": "https://github.com/apache/mina-sshd/commit/5a8fe830b2a2308a2b24ac8115a391af477f64f5"
       },
       {
+        "Url": "https://github.com/apache/mina-sshd/commit/10de190e7d3f9189deb76b8d08c72334a1fe2df0"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-fhw8-8j55-vwgq"
       }
     ],
@@ -36,12 +39,12 @@
         "Value": "CVE-2022-45047"
       }
     ],
-    "Description": "Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD \u003c= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server.",
+    "Description": "Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD \u003c= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server.\n\nUntil version 2.1.0, the code affected by this vulnerability appeared in `org.apache.sshd:sshd-core`. Version 2.1.0 contains a [commit](https://github.com/apache/mina-sshd/commit/10de190e7d3f9189deb76b8d08c72334a1fe2df0) where the code was moved to the package `org.apache.sshd:sshd-common`, which did not exist until version 2.1.0.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-11-16T12:00:18Z",
     "Severity": "CRITICAL",
     "Summary": "Unsafe deserialization in Apache MINA SSHD",
-    "UpdatedAt": "2023-02-01T05:03:57Z",
+    "UpdatedAt": "2023-08-18T20:44:40Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-03-22T18:45:56Z",
+  "UpdatedAt": "2023-09-05T14:36:12Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "libtaxii"
@@ -26,6 +26,9 @@
         "Url": "http://packetstormsecurity.com/files/159662/Libtaxii-1.1.117-OpenTaxi-0.2.0-Server-Side-Request-Forgery.html"
       },
       {
+        "Url": "https://github.com/TAXIIProject/libtaxii/commit/23c6f7b69d99e965c8d53dc4710ae64da3fb4842"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-836c-xg97-8p4h"
       }
     ],
@@ -43,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-04-30T17:34:48Z",
     "Severity": "CRITICAL",
-    "Summary": "Server-Side Request Forgery in libtaxii",
-    "UpdatedAt": "2023-02-01T05:05:37Z",
+    "Summary": "libtaxii Server-Side Request Forgery vulnerability",
+    "UpdatedAt": "2023-09-05T14:36:12Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

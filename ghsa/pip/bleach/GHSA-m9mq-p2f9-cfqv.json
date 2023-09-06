@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-03-04T19:40:00Z",
+  "UpdatedAt": "2023-09-05T21:05:24Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "bleach"
@@ -40,8 +40,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-01-04T17:46:30Z",
     "Severity": "CRITICAL",
-    "Summary": "Critical severity vulnerability that affects bleach",
-    "UpdatedAt": "2023-01-09T05:03:09Z",
+    "Summary": "Bleach URI Scheme Restriction Bypass",
+    "UpdatedAt": "2023-09-05T21:05:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

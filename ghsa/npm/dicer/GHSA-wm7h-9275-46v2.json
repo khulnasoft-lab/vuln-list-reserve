@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-05-25T20:23:49Z",
+  "UpdatedAt": "2023-08-28T14:22:55Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "dicer"
@@ -20,13 +20,13 @@
         "Url": "https://github.com/mscdex/dicer/pull/22"
       },
       {
-        "Url": "https://github.com/mscdex/dicer/pull/22/commits/b7fca2e93e8e9d4439d8acc5c02f5e54a0112dac"
-      },
-      {
         "Url": "https://snyk.io/vuln/SNYK-JS-DICER-2311764"
       },
       {
         "Url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-2838865"
+      },
+      {
+        "Url": "https://github.com/mscdex/dicer/commit/b7fca2e93e8e9d4439d8acc5c02f5e54a0112dac"
       },
       {
         "Url": "https://github.com/advisories/GHSA-wm7h-9275-46v2"
@@ -42,12 +42,12 @@
         "Value": "CVE-2022-24434"
       }
     ],
-    "Description": "This affects all versions of package dicer. A malicious attacker can send a modified form to server, and crash the nodejs service. A complete denial of service can be achived by sending the malicious form in a loop.",
+    "Description": "This affects all versions of the package `dicer`. A malicious attacker can send a modified form to the server and crash the Node.js service. A complete denial of service can be achieved by sending the malicious form in a loop.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-21T00:00:25Z",
     "Severity": "HIGH",
     "Summary": "Crash in HeaderParser in dicer",
-    "UpdatedAt": "2023-01-27T05:02:36Z",
+    "UpdatedAt": "2023-08-28T14:22:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

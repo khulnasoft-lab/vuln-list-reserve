@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-03-21T19:43:57Z",
+  "UpdatedAt": "2023-08-30T22:07:00Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "cryptography"
@@ -55,8 +55,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-02-10T01:32:27Z",
     "Severity": "CRITICAL",
-    "Summary": "Symmetrically encrypting large values can lead to integer overflow",
-    "UpdatedAt": "2023-01-27T05:02:26Z",
+    "Summary": "PyCA Cryptography symmetrically encrypting large values can lead to integer overflow",
+    "UpdatedAt": "2023-08-30T22:07:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.1,
