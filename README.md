@@ -27,5 +27,5 @@ Collect vulnerability information and save it in parsable format automatically
 daily
 
 ## Update script
-https://github.com/aquasecurity/vuln-list-update/
+https://github.com/khulnasoft-lab/vuln-list-update/
 
