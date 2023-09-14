@@ -1,17 +1,23 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-09-13T18:22:47Z",
+  "UpdatedAt": "2023-09-13T18:20:58Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "com.fasterxml.jackson.core:jackson-databind"
   },
   "Advisory": {
-    "DatabaseId": 1685,
-    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTg1Y3ctaGo2NS1xcXY5",
-    "GhsaId": "GHSA-85cw-hj65-qqv9",
+    "DatabaseId": 1686,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWg4MjItcjRyNS12OGpn",
+    "GhsaId": "GHSA-h822-r4r5-v8jg",
     "References": [
       {
-        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-16335"
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2019-14540"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/blob/master/release-notes/VERSION-2.x"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/issues/2410"
       },
       {
         "Url": "https://github.com/FasterXML/jackson-databind/issues/2449"
@@ -35,9 +41,6 @@
         "Url": "https://access.redhat.com/errata/RHSA-2020:0445"
       },
       {
-        "Url": "https://access.redhat.com/errata/RHSA-2020:0729"
-      },
-      {
         "Url": "https://lists.apache.org/thread.html/0fcef7321095ce0bc597d468d150cff3d647f4cb3aef3bd4d20e1c69@%3Ccommits.tinkerpop.apache.org%3E"
       },
       {
@@ -48,6 +51,9 @@
       },
       {
         "Url": "https://lists.apache.org/thread.html/a360b46061c91c5cad789b6c3190aef9b9f223a2b75c9c9f046fe016@%3Cissues.hbase.apache.org%3E"
+      },
+      {
+        "Url": "https://lists.apache.org/thread.html/a4f2c9fb36642a48912cdec6836ec00e497427717c5d377f8d7ccce6@%3Cnotifications.zookeeper.apache.org%3E"
       },
       {
         "Url": "https://lists.apache.org/thread.html/ad0d238e97a7da5eca47a014f0f7e81f440ed6bf74a93183825e18b9@%3Cissues.hbase.apache.org%3E"
@@ -66,6 +72,9 @@
       },
       {
         "Url": "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E"
+      },
+      {
+        "Url": "https://lists.apache.org/thread.html/r8aaf4ee16bbaf6204731d4770d96ebb34b258cd79b491f9cdd7f2540@%3Ccommits.nifi.apache.org%3E"
       },
       {
         "Url": "https://lists.apache.org/thread.html/rca37935d661f4689cb4119f1b3b224413b22be161b678e6e6ce0c69b@%3Ccommits.nifi.apache.org%3E"
@@ -110,28 +119,28 @@
         "Url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
       },
       {
-        "Url": "https://github.com/FasterXML/jackson-databind/commit/73c1c2cc76e6cdd7f3a5615cbe3207fe96e4d3db"
+        "Url": "https://github.com/FasterXML/jackson-databind/commit/d4983c740fec7d5576b207a8c30a63d3ea7443de"
       },
       {
-        "Url": "https://github.com/advisories/GHSA-85cw-hj65-qqv9"
+        "Url": "https://github.com/advisories/GHSA-h822-r4r5-v8jg"
       }
     ],
     "Identifiers": [
       {
         "Type": "GHSA",
-        "Value": "GHSA-85cw-hj65-qqv9"
+        "Value": "GHSA-h822-r4r5-v8jg"
       },
       {
         "Type": "CVE",
-        "Value": "CVE-2019-16335"
+        "Value": "CVE-2019-14540"
       }
     ],
-    "Description": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10, 2.8.11.5, and 2.6.7.3. It is related to com.zaxxer.hikari.HikariDataSource. This is a different vulnerability than CVE-2019-14540.",
+    "Description": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10, 2.8.11.5, and 2.6.7.3. It is related to `com.zaxxer.hikari.HikariConfig`.",
     "Origin": "UNSPECIFIED",
-    "PublishedAt": "2019-09-23T18:33:45Z",
+    "PublishedAt": "2019-09-23T18:33:25Z",
     "Severity": "CRITICAL",
     "Summary": "Polymorphic Typing issue in FasterXML jackson-databind",
-    "UpdatedAt": "2023-09-13T18:22:47Z",
+    "UpdatedAt": "2023-09-13T18:20:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,
