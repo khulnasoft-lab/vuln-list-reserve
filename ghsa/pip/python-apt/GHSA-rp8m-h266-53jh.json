@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-24T17:12:47Z",
     "Severity": "MODERATE",
     "Summary": "python-apt Flawed Package Integrity Check",
-    "UpdatedAt": "2023-08-14T23:45:34Z",
+    "UpdatedAt": "2023-09-26T20:44:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
