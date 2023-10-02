@@ -3,7 +3,7 @@
   "UpdatedAt": "2023-10-02T11:07:26Z",
   "Package": {
     "Ecosystem": "GO",
-    "Name": "github.com/lightningnetwork/lnd"
+    "Name": "github.com/btcsuite/btcd"
   },
   "Advisory": {
     "DatabaseId": 195486,
@@ -60,9 +60,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.15.2-beta"
+        "Identifier": "0.23.2"
       },
-      "VulnerableVersionRange": "\u003c 0.15.2-beta"
+      "VulnerableVersionRange": "\u003c 0.23.2"
     }
   ]
 }
