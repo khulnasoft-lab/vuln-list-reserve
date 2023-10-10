@@ -57,6 +57,60 @@
         "Identifier": "0.4.11"
       },
       "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.4.11"
+      },
+      "VulnerableVersionRange": "\u003c= 0.4.10"
     }
   ]
 }

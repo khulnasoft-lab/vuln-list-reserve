@@ -66,6 +66,60 @@
         "Identifier": "3.10.3"
       },
       "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.3"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.2"
     }
   ]
 }
