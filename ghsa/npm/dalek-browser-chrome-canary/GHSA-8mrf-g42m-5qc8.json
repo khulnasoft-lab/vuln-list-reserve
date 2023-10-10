@@ -48,60 +48,6 @@
         "Identifier": ""
       },
       "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003c= 0.0.10-2014-03-24-17-36-27"
     }
   ]
 }

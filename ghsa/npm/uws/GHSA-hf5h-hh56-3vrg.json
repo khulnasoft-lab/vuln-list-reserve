@@ -51,60 +51,6 @@
         "Identifier": "0.10.9"
       },
       "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.10.9"
-      },
-      "VulnerableVersionRange": "\u003e= 0.10.0, \u003c= 0.10.8"
     }
   ]
 }
