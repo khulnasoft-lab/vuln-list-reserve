@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-12-14T21:12:07Z",
+  "UpdatedAt": "2023-08-17T05:02:22Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "actionpack"
@@ -52,8 +52,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-12-14T21:19:08Z",
     "Severity": "MODERATE",
-    "Summary": "Open Redirect in actionpack",
-    "UpdatedAt": "2023-05-16T15:45:11Z",
+    "Summary": "actionpack Open Redirect in Host Authorization Middleware",
+    "UpdatedAt": "2023-08-17T05:02:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

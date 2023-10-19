@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-09-29T18:42:46Z",
+  "UpdatedAt": "2023-09-05T14:33:15Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "lxml"
@@ -70,8 +70,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2021-03-22T16:53:53Z",
     "Severity": "MODERATE",
-    "Summary": "lxml before 4.6.3 vulnerable to Cross-Site Scripting ",
-    "UpdatedAt": "2023-01-30T05:02:55Z",
+    "Summary": "lxml vulnerable to Cross-Site Scripting ",
+    "UpdatedAt": "2023-09-05T14:33:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

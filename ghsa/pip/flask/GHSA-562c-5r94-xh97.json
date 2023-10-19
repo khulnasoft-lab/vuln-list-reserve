@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-04-14T17:19:15Z",
+  "UpdatedAt": "2023-09-05T20:46:24Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "flask"
@@ -49,12 +49,12 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-08-23T19:10:40Z",
     "Severity": "HIGH",
-    "Summary": "The Pallets Project in flask that can result in large amount of memory usage",
-    "UpdatedAt": "2023-04-14T17:19:15Z",
+    "Summary": "Flask is vulnerable to Denial of Service via incorrect encoding of JSON data",
+    "UpdatedAt": "2023-09-05T20:46:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
-      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   },
   "Versions": [

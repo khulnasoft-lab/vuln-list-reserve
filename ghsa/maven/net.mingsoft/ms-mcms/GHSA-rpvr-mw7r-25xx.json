@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-03-01T20:58:15Z",
+  "UpdatedAt": "2023-09-25T15:44:10Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "net.mingsoft:ms-mcms"
@@ -30,12 +30,12 @@
         "Value": "CVE-2021-46062"
       }
     ],
-    "Description": "MCMS v5.2.5 was discovered to contain an arbitrary file deletion vulnerability via the component oldFileName.",
+    "Description": "`net.mingsoft:ms-basic` is used for plugin management for applications built with Maven for the [Mingfei Content Management System (MCMS)](https://gitee.com/mingSoft/MCMS). ms-basic before 2.1.16 is vulnerable to arbitrary file deletion using POST requests to `/template/writeFileContent` via the `oldFileName` parameter. MCMS before 5.2.11 is also vulnerable since it bundles vulnerable versions of ms-basic.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-02-19T00:01:24Z",
     "Severity": "HIGH",
-    "Summary": "Path traversal in MCMS",
-    "UpdatedAt": "2023-02-03T05:06:03Z",
+    "Summary": "MCMS Arbitrary File Deletion vulnerability",
+    "UpdatedAt": "2023-09-25T15:44:10Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.1,
@@ -45,9 +45,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "5.2.11"
       },
-      "VulnerableVersionRange": "\u003c= 5.2.5"
+      "VulnerableVersionRange": "\u003c 5.2.11"
     }
   ]
 }

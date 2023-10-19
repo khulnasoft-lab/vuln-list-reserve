@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2019-09-30T09:39:37Z",
+  "UpdatedAt": "2023-10-09T21:40:31Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.apache.commons:commons-compress"
@@ -101,6 +101,12 @@
         "Url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230818-0001/"
+      },
+      {
+        "Url": "https://github.com/jensdietrich/xshady-release/tree/main/CVE-2019-12402"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-53x6-4x5p-rrvv"
       }
     ],
@@ -119,7 +125,7 @@
     "PublishedAt": "2019-10-11T18:41:08Z",
     "Severity": "HIGH",
     "Summary": "Denial of Service in Apache Commons Compress",
-    "UpdatedAt": "2023-02-01T05:02:39Z",
+    "UpdatedAt": "2023-10-09T22:16:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

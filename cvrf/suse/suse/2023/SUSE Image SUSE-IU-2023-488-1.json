@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-07-20T06:40:45Z",
+        "Date": "2023-10-19T06:32:38Z",
         "Description": "current"
       }
     ]
@@ -3044,7 +3044,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,
@@ -3439,7 +3439,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3799,7 +3799,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": null,
@@ -4588,7 +4588,7 @@
     },
     {
       "CVE": "CVE-2023-24593",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "** REJECT ** Rejected by upstream.",
       "Threats": [
         {
           "Type": "Impact",

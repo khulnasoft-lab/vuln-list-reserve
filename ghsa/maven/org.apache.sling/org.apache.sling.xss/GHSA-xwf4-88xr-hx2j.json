@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-11-03T19:12:07Z",
+  "UpdatedAt": "2023-10-11T18:16:02Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.apache.sling:org.apache.sling.xss"
@@ -18,6 +18,12 @@
       },
       {
         "Url": "http://www.securityfocus.com/bid/99870"
+      },
+      {
+        "Url": "https://github.com/jensdietrich/xshady-release/tree/main/CVE-2016-5394"
+      },
+      {
+        "Url": "https://github.com/apache/sling-org-apache-sling-xss/commit/de32b144ad2be3367559f6184d560db42a220529"
       },
       {
         "Url": "https://github.com/advisories/GHSA-xwf4-88xr-hx2j"
@@ -38,7 +44,7 @@
     "PublishedAt": "2022-05-13T01:25:29Z",
     "Severity": "MODERATE",
     "Summary": "Cross site scripting in Apache Sling",
-    "UpdatedAt": "2023-02-01T05:04:26Z",
+    "UpdatedAt": "2023-10-11T18:17:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

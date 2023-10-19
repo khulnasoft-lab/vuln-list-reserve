@@ -35,6 +35,12 @@
         "Url": "https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217"
       },
       {
+        "Url": "https://www.debian.org/security/2023/dsa-5507"
+      },
+      {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00039.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-p26g-97m4-6q7c"
       }
     ],
@@ -53,7 +59,7 @@
     "PublishedAt": "2023-04-18T22:19:57Z",
     "Severity": "LOW",
     "Summary": "Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from other cookies",
-    "UpdatedAt": "2023-06-13T22:44:09Z",
+    "UpdatedAt": "2023-10-02T20:35:53Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 2.4,

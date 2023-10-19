@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-03-28T19:44:00Z",
+  "UpdatedAt": "2023-09-19T22:21:22Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.apache.logging.log4j:log4j-core"
@@ -215,7 +215,7 @@
     "PublishedAt": "2021-12-10T00:40:56Z",
     "Severity": "CRITICAL",
     "Summary": "Remote code injection in Log4j",
-    "UpdatedAt": "2023-04-04T21:46:32Z",
+    "UpdatedAt": "2023-09-19T22:21:22Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 10,

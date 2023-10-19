@@ -31,43 +31,13 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.3:latest-2023-312,Container suse/sle-micro-rancher/5.4:latest-2023-312,Image SLES15-SP4-SAP-Azure-LI-BYOS-2023-312,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2023-312,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2023-312,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2023-312,SUSE-2023-312,SUSE-SLE-Module-Basesystem-15-SP4-2023-312,openSUSE-SLE-15.4-2023-312",
+      "Text": "SUSE-2023-312,SUSE-SLE-Module-Basesystem-15-SP4-2023-312,openSUSE-SLE-15.4-2023-312",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "libopenssl3-3.0.1-150400.4.17.1",
-        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
-        "RelationType": "Default Component Of"
-      },
       {
         "ProductReference": "libopenssl-3-devel-3.0.1-150400.4.17.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
@@ -225,12 +195,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -266,18 +230,24 @@
         {
           "URL": "https://bugzilla.suse.com/1210067",
           "Description": "SUSE Bug 1210067"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213146",
+          "Description": "SUSE Bug 1213146"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213289",
+          "Description": "SUSE Bug 1213289"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215014",
+          "Description": "SUSE Bug 1215014"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -315,12 +285,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -352,18 +316,16 @@
         {
           "URL": "https://bugzilla.suse.com/1207536",
           "Description": "SUSE Bug 1207536"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213146",
+          "Description": "SUSE Bug 1213146"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -401,12 +363,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -444,12 +400,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -493,18 +443,20 @@
         {
           "URL": "https://bugzilla.suse.com/1211503",
           "Description": "SUSE Bug 1211503"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213146",
+          "Description": "SUSE Bug 1213146"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214269",
+          "Description": "SUSE Bug 1214269"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",
@@ -546,12 +498,6 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container suse/sle-micro-rancher/5.3:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Container suse/sle-micro-rancher/5.4:latest:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libopenssl3-3.0.1-150400.4.17.1",
-            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl-3-devel-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:libopenssl3-3.0.1-150400.4.17.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP4:openssl-3-3.0.1-150400.4.17.1",

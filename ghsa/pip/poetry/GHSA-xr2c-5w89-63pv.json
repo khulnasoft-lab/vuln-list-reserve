@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2022-09-19T20:18:28Z",
+  "UpdatedAt": "2023-09-07T20:59:29Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "poetry"
@@ -24,6 +24,9 @@
       },
       {
         "Url": "https://github.com/advisories/GHSA-xr2c-5w89-63pv"
+      },
+      {
+        "Url": "https://github.com/python-poetry/poetry-core/commit/1e1a109a1009daaab2367ce90c997f0cbbb0c1d1"
       }
     ],
     "Identifiers": [
@@ -41,7 +44,7 @@
     "PublishedAt": "2022-03-23T00:00:24Z",
     "Severity": "CRITICAL",
     "Summary": "Poetry before v1.1.9 contains Untrusted Search Path",
-    "UpdatedAt": "2023-01-27T05:07:10Z",
+    "UpdatedAt": "2023-09-07T20:59:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

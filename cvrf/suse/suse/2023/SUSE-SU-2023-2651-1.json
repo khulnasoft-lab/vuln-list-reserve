@@ -31,13 +31,63 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2651,SUSE-SLE-Module-Live-Patching-15-SP2-2023-2651,SUSE-SLE-Product-HA-15-SP2-2023-2651,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-2651,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-2651,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-2651,SUSE-Storage-7-2023-2651",
+      "Text": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2023-2651,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2023-2651,SUSE-2023-2651,SUSE-SLE-Module-Live-Patching-15-SP2-2023-2651,SUSE-SLE-Product-HA-15-SP2-2023-2651,SUSE-SLE-Product-HPC-15-SP2-LTSS-2023-2651,SUSE-SLE-Product-SLES-15-SP2-LTSS-2023-2651,SUSE-SLE-Product-SLES_SAP-15-SP2-2023-2651,SUSE-Storage-7-2023-2651",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "cluster-md-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dlm-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gfs2-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ocfs2-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cluster-md-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dlm-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gfs2-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ocfs2-kmp-default-5.3.18-150200.24.154.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "kernel-default-5.3.18-150200.24.154.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7",
@@ -564,6 +614,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -646,6 +706,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -728,6 +798,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -810,6 +890,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -892,6 +982,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -974,6 +1074,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1056,6 +1166,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1138,6 +1258,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1203,7 +1333,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1218,12 +1348,30 @@
         {
           "URL": "https://bugzilla.suse.com/1208912",
           "Description": "SUSE Bug 1208912"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214128",
+          "Description": "SUSE Bug 1214128"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1215674",
+          "Description": "SUSE Bug 1215674"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1306,6 +1454,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1388,6 +1546,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1470,6 +1638,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1552,6 +1730,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1634,6 +1822,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1716,6 +1914,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1798,6 +2006,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1880,6 +2098,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -1962,6 +2190,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -2042,12 +2280,34 @@
         {
           "URL": "https://bugzilla.suse.com/1211260",
           "Description": "SUSE Bug 1211260"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213842",
+          "Description": "SUSE Bug 1213842"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214128",
+          "Description": "SUSE Bug 1214128"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -2134,6 +2394,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -2216,6 +2486,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",
@@ -2298,6 +2578,16 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:kernel-default-5.3.18-150200.24.154.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:ocfs2-kmp-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-5.3.18-150200.24.154.1",
             "SUSE Enterprise Storage 7:kernel-default-base-5.3.18-150200.24.154.1.150200.9.75.1",
             "SUSE Enterprise Storage 7:kernel-default-devel-5.3.18-150200.24.154.1",

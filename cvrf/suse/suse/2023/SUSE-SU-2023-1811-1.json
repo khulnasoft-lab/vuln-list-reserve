@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-1811,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-1811,Image SLES15-SP3-CHOST-BYOS-Azure-2023-1811,Image SLES15-SP3-CHOST-BYOS-EC2-2023-1811,Image SLES15-SP3-CHOST-BYOS-GCE-2023-1811,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1811,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-1811,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-1811,SUSE-2023-1811,SUSE-SLE-Module-Live-Patching-15-SP3-2023-1811,SUSE-SLE-Product-HA-15-SP3-2023-1811,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1811,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1811,SUSE-SLE-Product-RT-15-SP3-2023-1811,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1811,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1811,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-1811,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1811,SUSE-SUSE-MicroOS-5.1-2023-1811,SUSE-SUSE-MicroOS-5.2-2023-1811,SUSE-Storage-7.1-2023-1811,openSUSE-SLE-15.4-2023-1811",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2023-1811,Image SLES15-SP3-CHOST-BYOS-Aliyun-2023-1811,Image SLES15-SP3-CHOST-BYOS-Azure-2023-1811,Image SLES15-SP3-CHOST-BYOS-EC2-2023-1811,Image SLES15-SP3-CHOST-BYOS-GCE-2023-1811,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2023-1811,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2023-1811,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2023-1811,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2023-1811,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2023-1811,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2023-1811,SUSE-2023-1811,SUSE-SLE-Module-Live-Patching-15-SP3-2023-1811,SUSE-SLE-Product-HA-15-SP3-2023-1811,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2023-1811,SUSE-SLE-Product-HPC-15-SP3-LTSS-2023-1811,SUSE-SLE-Product-RT-15-SP3-2023-1811,SUSE-SLE-Product-SLES-15-SP3-LTSS-2023-1811,SUSE-SLE-Product-SLES_SAP-15-SP3-2023-1811,SUSE-SLE-Product-SUSE-Manager-Proxy-4.2-2023-1811,SUSE-SLE-Product-SUSE-Manager-Server-4.2-2023-1811,SUSE-SUSE-MicroOS-5.1-2023-1811,SUSE-SUSE-MicroOS-5.2-2023-1811,SUSE-Storage-7.1-2023-1811,openSUSE-SLE-15.4-2023-1811",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -81,6 +81,21 @@
       {
         "ProductReference": "kernel-default-5.3.18-150300.59.118.1",
         "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.118.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.118.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.118.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -994,6 +1009,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1156,6 +1174,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1304,6 +1325,10 @@
         {
           "URL": "https://bugzilla.suse.com/1209672",
           "Description": "SUSE Bug 1209672"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -1319,6 +1344,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1478,6 +1506,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1626,6 +1657,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208911",
           "Description": "SUSE Bug 1208911"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -1641,6 +1676,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1800,6 +1838,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -1944,6 +1985,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208599",
           "Description": "SUSE Bug 1208599"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214019",
+          "Description": "SUSE Bug 1214019"
         }
       ],
       "ProductStatuses": [
@@ -1959,6 +2004,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2122,6 +2170,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2281,6 +2332,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2437,6 +2491,10 @@
         {
           "URL": "https://bugzilla.suse.com/1210423",
           "Description": "SUSE Bug 1210423"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
         }
       ],
       "ProductStatuses": [
@@ -2452,6 +2510,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2611,6 +2672,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2778,6 +2842,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -2937,6 +3004,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3096,6 +3166,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3255,6 +3328,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3418,6 +3494,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3577,6 +3656,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3736,6 +3818,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -3899,6 +3984,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -4047,6 +4135,14 @@
         {
           "URL": "https://bugzilla.suse.com/1210452",
           "Description": "SUSE Bug 1210452"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1211833",
+          "Description": "SUSE Bug 1211833"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213841",
+          "Description": "SUSE Bug 1213841"
         }
       ],
       "ProductStatuses": [
@@ -4062,6 +4158,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
@@ -4210,6 +4309,10 @@
         {
           "URL": "https://bugzilla.suse.com/1211110",
           "Description": "SUSE Bug 1211110"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214378",
+          "Description": "SUSE Bug 1214378"
         }
       ],
       "ProductStatuses": [
@@ -4225,6 +4328,9 @@
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.118.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.118.1",

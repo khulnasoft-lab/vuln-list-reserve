@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-05-24T20:58:15Z",
+  "UpdatedAt": "2023-10-12T20:41:02Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "log4j:log4j"
@@ -371,7 +371,7 @@
     "PublishedAt": "2020-01-06T18:43:49Z",
     "Severity": "CRITICAL",
     "Summary": "Deserialization of Untrusted Data in Log4j",
-    "UpdatedAt": "2023-05-24T20:58:15Z",
+    "UpdatedAt": "2023-10-12T20:41:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

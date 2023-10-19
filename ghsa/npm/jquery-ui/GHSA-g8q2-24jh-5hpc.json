@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-07-27T14:47:42Z",
+  "UpdatedAt": "2023-09-26T18:29:19Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "jquery-ui"
@@ -23,12 +23,12 @@
         "Value": "GHSA-g8q2-24jh-5hpc"
       }
     ],
-    "Description": "Withdrawn, accidental duplicate publish.\r\n\r\nCross-site scripting (XSS) vulnerability in jQuery UI before 1.12.0 might allow remote attackers to inject arbitrary web script or HTML via the closeText parameter of the dialog function.",
+    "Description": "Withdrawn, accidental duplicate publish.\n\nCross-site scripting (XSS) vulnerability in jQuery UI before 1.12.0 might allow remote attackers to inject arbitrary web script or HTML via the closeText parameter of the dialog function.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-07-27T14:47:52Z",
     "Severity": "HIGH",
     "Summary": "High severity vulnerability that affects jquery-ui",
-    "UpdatedAt": "2023-01-09T05:03:17Z",
+    "UpdatedAt": "2023-09-26T18:29:19Z",
     "WithdrawnAt": "2020-06-16T21:36:34Z",
     "CVSS": {
       "Score": 0,

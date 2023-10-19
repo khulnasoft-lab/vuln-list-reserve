@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2022-4617,SUSE-SLE-Micro-5.3-2022-4617,SUSE-SLE-Module-Live-Patching-15-SP4-2022-4617,SUSE-SLE-Module-RT-15-SP4-2022-4617,openSUSE-Leap-Micro-5.3-2022-4617,openSUSE-SLE-15.4-2022-4617",
+      "Text": "Container rancher/elemental-teal-rt/5.3:latest-2022-4617,Container rancher/elemental-teal-rt/5.4:latest-2022-4617,SUSE-2022-4617,SUSE-SLE-Micro-5.3-2022-4617,SUSE-SLE-Module-Live-Patching-15-SP4-2022-4617,SUSE-SLE-Module-RT-15-SP4-2022-4617,openSUSE-Leap-Micro-5.3-2022-4617,openSUSE-SLE-15.4-2022-4617",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-rt-5.14.21-150400.15.5.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-rt-5.14.21-150400.15.5.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Live Patching 15 SP4",
@@ -1945,6 +1955,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2003,6 +2015,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2066,6 +2080,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2117,6 +2133,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2168,6 +2186,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2223,6 +2243,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2274,6 +2296,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2329,6 +2353,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2384,6 +2410,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2439,6 +2467,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2490,6 +2520,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2545,6 +2577,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2608,6 +2642,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2663,6 +2699,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2718,6 +2756,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2769,6 +2809,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2824,6 +2866,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2875,6 +2919,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2926,6 +2972,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -2977,6 +3025,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3028,6 +3078,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3079,6 +3131,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3130,6 +3184,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3185,6 +3241,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3244,6 +3302,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3295,6 +3355,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3350,6 +3412,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3405,6 +3469,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3456,6 +3522,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3507,6 +3575,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3558,6 +3628,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3613,6 +3685,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3664,6 +3738,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3735,6 +3811,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3786,6 +3864,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3837,6 +3917,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3892,6 +3974,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -3943,6 +4027,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4006,6 +4092,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4057,6 +4145,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4108,6 +4198,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4163,6 +4255,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4214,6 +4308,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4265,6 +4361,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4316,6 +4414,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4375,6 +4475,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4438,6 +4540,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4489,6 +4593,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4540,6 +4646,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4595,6 +4703,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4662,6 +4772,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4713,6 +4825,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4764,6 +4878,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4819,6 +4935,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4870,6 +4988,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4921,6 +5041,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -4972,6 +5094,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5023,6 +5147,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5086,6 +5212,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5145,6 +5273,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5196,6 +5326,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5247,6 +5379,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5302,6 +5436,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5357,6 +5493,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5436,6 +5574,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5487,6 +5627,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5542,6 +5684,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5609,6 +5753,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5668,6 +5814,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5719,6 +5867,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5770,6 +5920,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5821,6 +5973,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5888,6 +6042,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -5951,6 +6107,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6002,6 +6160,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6061,6 +6221,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6120,6 +6282,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6179,6 +6343,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6230,6 +6396,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6285,6 +6453,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6344,6 +6514,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6395,6 +6567,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6446,6 +6620,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6513,6 +6689,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6572,6 +6750,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6631,6 +6811,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6690,6 +6872,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6749,6 +6933,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6800,6 +6986,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6851,6 +7039,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6906,6 +7096,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -6971,12 +7163,18 @@
         {
           "URL": "https://bugzilla.suse.com/1211118",
           "Description": "SUSE Bug 1211118"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214268",
+          "Description": "SUSE Bug 1214268"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -7048,6 +7246,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -7099,6 +7299,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -7150,6 +7352,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",
@@ -7205,6 +7409,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:kernel-rt-5.14.21-150400.15.5.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:kernel-rt-5.14.21-150400.15.5.1",
             "SUSE Linux Enterprise Live Patching 15 SP4:kernel-livepatch-5_14_21-150400_15_5-rt-1-150400.1.3.1",
             "SUSE Real Time Module 15 SP4:cluster-md-kmp-rt-5.14.21-150400.15.5.1",
             "SUSE Real Time Module 15 SP4:dlm-kmp-rt-5.14.21-150400.15.5.1",

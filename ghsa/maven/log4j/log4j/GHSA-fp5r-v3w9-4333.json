@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2021-12-14T19:51:12Z",
+  "UpdatedAt": "2023-10-13T21:09:26Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "log4j:log4j"
@@ -65,7 +65,7 @@
     "PublishedAt": "2021-12-14T19:49:31Z",
     "Severity": "HIGH",
     "Summary": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
-    "UpdatedAt": "2023-01-29T05:02:05Z",
+    "UpdatedAt": "2023-10-13T21:09:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

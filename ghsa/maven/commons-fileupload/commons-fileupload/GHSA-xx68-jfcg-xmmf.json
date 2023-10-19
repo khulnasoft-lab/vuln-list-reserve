@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2018-12-21T17:47:19Z",
+  "UpdatedAt": "2023-09-29T12:05:19Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "commons-fileupload:commons-fileupload"
@@ -219,6 +219,24 @@
       },
       {
         "Url": "http://www.vmware.com/security/advisories/VMSA-2014-0012.html"
+      },
+      {
+        "Url": "https://github.com/apache/tomcat/commit/29384723d8d9645b87e05be9fa369a4deeb78b9c"
+      },
+      {
+        "Url": "https://svn.apache.org/viewvc?view=revision\u0026revision=1565143"
+      },
+      {
+        "Url": "https://svn.apache.org/viewvc?view=revision\u0026revision=1565163"
+      },
+      {
+        "Url": "https://svn.apache.org/viewvc?view=revision\u0026revision=1565169"
+      },
+      {
+        "Url": "https://tomcat.apache.org/security-7.html"
+      },
+      {
+        "Url": "https://tomcat.apache.org/security-8.html"
       }
     ],
     "Identifiers": [
@@ -235,8 +253,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-12-21T17:51:42Z",
     "Severity": "HIGH",
-    "Summary": "High severity vulnerability that affects commons-fileupload:commons-fileupload",
-    "UpdatedAt": "2023-02-01T05:04:07Z",
+    "Summary": "Commons FileUpload Denial of service vulnerability",
+    "UpdatedAt": "2023-09-29T12:05:19Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

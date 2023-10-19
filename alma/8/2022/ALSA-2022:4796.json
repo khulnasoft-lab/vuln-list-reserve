@@ -12,30 +12,6 @@
     "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
     "packages": [
       {
-        "name": "nodejs-full-i18n",
-        "version": "16.14.0",
-        "release": "4.module_el8.6.0+2904+f21ad6f4",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
-        "filename": "nodejs-full-i18n-16.14.0-4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
-        "sum": "25b3c015cd71ef46d42afa23f177dc5352af25adf41ff6fad3130a9eebcd8b7b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "npm",
-        "version": "8.3.1",
-        "release": "1.16.14.0.4.module_el8.6.0+2904+f21ad6f4",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
-        "filename": "npm-8.3.1-1.16.14.0.4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
-        "sum": "28b613771ad1de931f0af6ff12559b7d858899a8d64726db7f4b5e3c646dcc36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nodejs-nodemon",
         "version": "2.0.15",
         "release": "1.module_el8.6.0+2904+f21ad6f4",
@@ -48,18 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-devel",
-        "version": "16.14.0",
-        "release": "4.module_el8.6.0+2904+f21ad6f4",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
-        "filename": "nodejs-devel-16.14.0-4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
-        "sum": "474a94c9876344851a0d96e56c33960045267fdb32b7c2e6f1ca93cbcf406216",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nodejs-nodemon",
         "version": "2.0.15",
         "release": "1.module_el8.5.0+2605+45d748af",
@@ -68,6 +32,42 @@
         "src": "nodejs-nodemon-2.0.15-1.module_el8.5.0+2605+45d748af.src.rpm",
         "filename": "nodejs-nodemon-2.0.15-1.module_el8.5.0+2605+45d748af.noarch.rpm",
         "sum": "663850d0df3e0ff71054055874b5f9178a836b16a31c603b3e1ecd8ef58ac5e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-packaging",
+        "version": "25",
+        "release": "1.module_el8.5.0+246+05401605",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nodejs-packaging-25-1.module_el8.5.0+246+05401605.src.rpm",
+        "filename": "nodejs-packaging-25-1.module_el8.5.0+246+05401605.noarch.rpm",
+        "sum": "b26adf0f27ad904a289877f9c39ac1a754ced8eb294e2d3800d685a1618bd2e4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-packaging",
+        "version": "25",
+        "release": "1.module_el8.5.0+2605+45d748af",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.noarch.rpm",
+        "sum": "cb0391aca612f152879a96ea35099dc00cc9685ea52575761848c9e6eb7578bf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-docs",
+        "version": "16.14.0",
+        "release": "4.module_el8.6.0+2904+f21ad6f4",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
+        "filename": "nodejs-docs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.noarch.rpm",
+        "sum": "d3e9321e2d2ff82a5588e2d0f946b3b1fea613c2031ffbe68da2cccf8aaf987e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,18 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-packaging",
-        "version": "25",
-        "release": "1.module_el8.5.0+246+05401605",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nodejs-packaging-25-1.module_el8.5.0+246+05401605.src.rpm",
-        "filename": "nodejs-packaging-25-1.module_el8.5.0+246+05401605.noarch.rpm",
-        "sum": "b26adf0f27ad904a289877f9c39ac1a754ced8eb294e2d3800d685a1618bd2e4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "npm",
         "version": "8.3.1",
         "release": "1.16.14.0.4.module_el8.6.0+2904+f21ad6f4",
@@ -132,26 +120,38 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-packaging",
-        "version": "25",
-        "release": "1.module_el8.5.0+2605+45d748af",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.noarch.rpm",
-        "sum": "cb0391aca612f152879a96ea35099dc00cc9685ea52575761848c9e6eb7578bf",
+        "name": "nodejs-full-i18n",
+        "version": "16.14.0",
+        "release": "4.module_el8.6.0+2904+f21ad6f4",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
+        "filename": "nodejs-full-i18n-16.14.0-4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
+        "sum": "25b3c015cd71ef46d42afa23f177dc5352af25adf41ff6fad3130a9eebcd8b7b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-docs",
+        "name": "npm",
+        "version": "8.3.1",
+        "release": "1.16.14.0.4.module_el8.6.0+2904+f21ad6f4",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
+        "filename": "npm-8.3.1-1.16.14.0.4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
+        "sum": "28b613771ad1de931f0af6ff12559b7d858899a8d64726db7f4b5e3c646dcc36",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-devel",
         "version": "16.14.0",
         "release": "4.module_el8.6.0+2904+f21ad6f4",
         "epoch": "1",
-        "arch": "noarch",
+        "arch": "x86_64",
         "src": "nodejs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.src.rpm",
-        "filename": "nodejs-docs-16.14.0-4.module_el8.6.0+2904+f21ad6f4.noarch.rpm",
-        "sum": "d3e9321e2d2ff82a5588e2d0f946b3b1fea613c2031ffbe68da2cccf8aaf987e",
+        "filename": "nodejs-devel-16.14.0-4.module_el8.6.0+2904+f21ad6f4.x86_64.rpm",
+        "sum": "474a94c9876344851a0d96e56c33960045267fdb32b7c2e6f1ca93cbcf406216",
         "sum_type": 5,
         "reboot_suggested": 0
       },

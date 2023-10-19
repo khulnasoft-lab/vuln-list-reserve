@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-08-31T18:36:56Z",
+  "UpdatedAt": "2023-08-28T15:34:44Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "materialize-css"
@@ -24,6 +24,9 @@
       },
       {
         "Url": "https://www.npmjs.com/advisories/818"
+      },
+      {
+        "Url": "https://github.com/materializecss/materialize/pull/49"
       }
     ],
     "Identifiers": [
@@ -40,8 +43,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-04-09T19:44:40Z",
     "Severity": "MODERATE",
-    "Summary": "Cross-Site Scripting in materialize-css",
-    "UpdatedAt": "2023-01-09T05:02:49Z",
+    "Summary": "Materialize-css vulnerable to Cross-site Scripting in tooltip component",
+    "UpdatedAt": "2023-08-28T15:34:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

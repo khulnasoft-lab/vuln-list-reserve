@@ -47,6 +47,12 @@
         "Url": "https://groups.google.com/g/kubernetes-security-announce/c/mwrakFaEdnc"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20230818-0015/"
+      },
+      {
+        "Url": "http://packetstormsecurity.com/files/175095/PyTorch-Model-Server-Registration-Deserialization-Remote-Code-Execution.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
       }
     ],
@@ -65,7 +71,7 @@
     "PublishedAt": "2022-12-12T21:19:47Z",
     "Severity": "HIGH",
     "Summary": "SnakeYaml Constructor Deserialization Remote Code Execution",
-    "UpdatedAt": "2023-04-25T21:00:11Z",
+    "UpdatedAt": "2023-10-16T21:41:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.3,

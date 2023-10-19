@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SAP-Azure-BYOS-2022-1027,Image SLES15-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP1-SAP-Azure-BYOS-2022-1027,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP1-SAPCAL-Azure-2022-1027,Image SLES15-SP1-SAPCAL-EC2-HVM-2022-1027,Image SLES15-SP1-SAPCAL-GCE-2022-1027,Image SLES15-SP2-SAP-Azure-2022-1027,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP2-SAP-BYOS-Azure-2022-1027,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-1027,Image SLES15-SP2-SAP-BYOS-GCE-2022-1027,Image SLES15-SP2-SAP-EC2-HVM-2022-1027,Image SLES15-SP2-SAP-GCE-2022-1027,Image SLES15-SP3-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-Azure-2022-1027,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP3-SAP-BYOS-Azure-2022-1027,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-BYOS-GCE-2022-1027,Image SLES15-SP3-SAP-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-GCE-2022-1027,Image SLES15-SP3-SAPCAL-Azure-2022-1027,Image SLES15-SP3-SAPCAL-EC2-HVM-2022-1027,Image SLES15-SP3-SAPCAL-GCE-2022-1027,Image SLES15-SP4-SAP-2022-1027,Image SLES15-SP4-SAP-Azure-2022-1027,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-1027,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-1027,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP4-SAP-EC2-2022-1027,Image SLES15-SP4-SAP-GCE-2022-1027,Image SLES15-SP4-SAPCAL-2022-1027,Image SLES15-SP4-SAPCAL-Azure-2022-1027,Image SLES15-SP4-SAPCAL-EC2-2022-1027,Image SLES15-SP4-SAPCAL-GCE-2022-1027,Image SLES15-SP5-SAP-Azure-LI-BYOS-2022-1027,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2022-1027,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP5-SAPCAL-Azure-2022-1027,Image SLES15-SP5-SAPCAL-EC2-2022-1027,Image SLES15-SP5-SAPCAL-GCE-2022-1027,SUSE-2022-1027,SUSE-SLE-Module-Legacy-15-SP3-2022-1027,SUSE-SLE-Module-Legacy-15-SP4-2022-1027,SUSE-SLE-Product-SLES-15-2022-1027,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1027,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1027,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-1027,SUSE-SLE-Product-SLES_SAP-15-2022-1027,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1027,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-1027,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-1027,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-1027,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1027,SUSE-Storage-6-2022-1027,SUSE-Storage-7-2022-1027",
+      "Text": "Image SLES15-SAP-Azure-BYOS-2022-1027,Image SLES15-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP1-SAP-Azure-BYOS-2022-1027,Image SLES15-SP1-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP1-SAPCAL-Azure-2022-1027,Image SLES15-SP1-SAPCAL-EC2-HVM-2022-1027,Image SLES15-SP1-SAPCAL-GCE-2022-1027,Image SLES15-SP2-SAP-Azure-2022-1027,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP2-SAP-BYOS-Azure-2022-1027,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-1027,Image SLES15-SP2-SAP-BYOS-GCE-2022-1027,Image SLES15-SP2-SAP-EC2-HVM-2022-1027,Image SLES15-SP2-SAP-GCE-2022-1027,Image SLES15-SP3-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-Azure-2022-1027,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP3-SAP-BYOS-Azure-2022-1027,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-BYOS-GCE-2022-1027,Image SLES15-SP3-SAP-EC2-HVM-2022-1027,Image SLES15-SP3-SAP-GCE-2022-1027,Image SLES15-SP3-SAPCAL-Azure-2022-1027,Image SLES15-SP3-SAPCAL-EC2-HVM-2022-1027,Image SLES15-SP3-SAPCAL-GCE-2022-1027,Image SLES15-SP4-SAP-2022-1027,Image SLES15-SP4-SAP-Azure-2022-1027,Image SLES15-SP4-SAP-Azure-LI-BYOS-2022-1027,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2022-1027,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP4-SAP-EC2-2022-1027,Image SLES15-SP4-SAP-GCE-2022-1027,Image SLES15-SP4-SAPCAL-2022-1027,Image SLES15-SP4-SAPCAL-Azure-2022-1027,Image SLES15-SP4-SAPCAL-EC2-2022-1027,Image SLES15-SP4-SAPCAL-GCE-2022-1027,Image SLES15-SP5-SAP-Azure-2022-1027,Image SLES15-SP5-SAP-Azure-LI-BYOS-2022-1027,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2022-1027,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2022-1027,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2022-1027,Image SLES15-SP5-SAP-EC2-2022-1027,Image SLES15-SP5-SAP-GCE-2022-1027,Image SLES15-SP5-SAPCAL-Azure-2022-1027,Image SLES15-SP5-SAPCAL-EC2-2022-1027,Image SLES15-SP5-SAPCAL-GCE-2022-1027,SUSE-2022-1027,SUSE-SLE-Module-Legacy-15-SP3-2022-1027,SUSE-SLE-Module-Legacy-15-SP4-2022-1027,SUSE-SLE-Product-SLES-15-2022-1027,SUSE-SLE-Product-SLES-15-SP1-BCL-2022-1027,SUSE-SLE-Product-SLES-15-SP1-LTSS-2022-1027,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-1027,SUSE-SLE-Product-SLES_SAP-15-2022-1027,SUSE-SLE-Product-SLES_SAP-15-SP1-2022-1027,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-1027,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-1027,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-1027,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-1027,SUSE-Storage-6-2022-1027,SUSE-Storage-7-2022-1027",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -425,6 +425,21 @@
       },
       {
         "ProductReference": "java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
         "RelationType": "Default Component Of"
       },
@@ -441,6 +456,36 @@
       {
         "ProductReference": "java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -907,7 +952,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-21248",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serialization). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 3.7 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serialization). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 3.7 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).",
       "Threats": [
         {
           "Type": "Impact",
@@ -1013,6 +1058,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1183,6 +1237,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1251,7 +1314,7 @@
     },
     {
       "CVE": "CVE-2022-21277",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -1357,6 +1420,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1425,7 +1497,7 @@
     },
     {
       "CVE": "CVE-2022-21282",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).",
       "Threats": [
         {
           "Type": "Impact",
@@ -1531,6 +1603,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1599,7 +1680,7 @@
     },
     {
       "CVE": "CVE-2022-21283",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -1705,6 +1786,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1773,7 +1863,7 @@
     },
     {
       "CVE": "CVE-2022-21291",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).",
       "Threats": [
         {
           "Type": "Impact",
@@ -1879,6 +1969,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -1947,7 +2046,7 @@
     },
     {
       "CVE": "CVE-2022-21293",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2053,6 +2152,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2121,7 +2229,7 @@
     },
     {
       "CVE": "CVE-2022-21294",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2227,6 +2335,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2295,7 +2412,7 @@
     },
     {
       "CVE": "CVE-2022-21296",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2401,6 +2518,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2469,7 +2595,7 @@
     },
     {
       "CVE": "CVE-2022-21299",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2575,6 +2701,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2643,7 +2778,7 @@
     },
     {
       "CVE": "CVE-2022-21305",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2749,6 +2884,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2817,7 +2961,7 @@
     },
     {
       "CVE": "CVE-2022-21340",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -2923,6 +3067,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -2991,7 +3144,7 @@
     },
     {
       "CVE": "CVE-2022-21341",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serialization). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serialization). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -3097,6 +3250,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -3271,6 +3433,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -3339,7 +3510,7 @@
     },
     {
       "CVE": "CVE-2022-21360",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -3445,6 +3616,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -3513,7 +3693,7 @@
     },
     {
       "CVE": "CVE-2022-21365",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 7u321, 8u311, 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -3619,6 +3799,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
@@ -3687,7 +3876,7 @@
     },
     {
       "CVE": "CVE-2022-21366",
-      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.01; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
+      "Description": "Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO). Supported versions that are affected are Oracle Java SE: 11.0.13, 17.0.1; Oracle GraalVM Enterprise Edition: 20.3.4 and 21.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).",
       "Threats": [
         {
           "Type": "Impact",
@@ -3793,6 +3982,15 @@
             "Image SLES15-SP5-SAP-Azure-LI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAP-Azure-VLI-BYOS:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-EC2:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
+            "Image SLES15-SP5-SAP-GCE:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-devel-1.8.0_sr7.5-150000.3.56.1",
             "Image SLES15-SP5-SAPCAL-Azure:java-1_8_0-ibm-plugin-1.8.0_sr7.5-150000.3.56.1",

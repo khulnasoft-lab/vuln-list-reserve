@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container rancher/elemental-teal/5.3:latest-2020-3380,Container suse/sle-micro-rancher/5.3:latest-2020-3380,Container suse/sle-micro-rancher/5.4:latest-2020-3380,Image SLES15-SP4-Micro-5-3-2020-3380,Image SLES15-SP4-Micro-5-3-Azure-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2020-3380,Image SLES15-SP4-Micro-5-3-EC2-2020-3380,Image SLES15-SP4-Micro-5-3-GCE-2020-3380,Image SLES15-SP4-Micro-5-4-2020-3380,Image SLES15-SP4-Micro-5-4-Azure-2020-3380,Image SLES15-SP4-Micro-5-4-EC2-2020-3380,SUSE-2020-3380,SUSE-SLE-Module-Basesystem-15-SP1-2020-3380,SUSE-SLE-Module-Basesystem-15-SP2-2020-3380,SUSE-SLE-Product-HPC-15-2020-3380,SUSE-SLE-Product-SLES-15-2020-3380,SUSE-SLE-Product-SLES_SAP-15-2020-3380",
+      "Text": "Container rancher/elemental-teal-rt/5.3:latest-2020-3380,Container rancher/elemental-teal-rt/5.4:latest-2020-3380,Container rancher/elemental-teal/5.3:latest-2020-3380,Container rancher/elemental-teal/5.4:latest-2020-3380,Container suse/sle-micro-rancher/5.3:latest-2020-3380,Container suse/sle-micro-rancher/5.4:latest-2020-3380,Image SLES15-SP4-Micro-5-3-2020-3380,Image SLES15-SP4-Micro-5-3-Azure-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-EC2-2020-3380,Image SLES15-SP4-Micro-5-3-BYOS-GCE-2020-3380,Image SLES15-SP4-Micro-5-3-EC2-2020-3380,Image SLES15-SP4-Micro-5-3-GCE-2020-3380,Image SLES15-SP4-Micro-5-4-2020-3380,Image SLES15-SP4-Micro-5-4-Azure-2020-3380,Image SLES15-SP4-Micro-5-4-BYOS-2020-3380,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2020-3380,Image SLES15-SP4-Micro-5-4-BYOS-EC2-2020-3380,Image SLES15-SP4-Micro-5-4-BYOS-GCE-2020-3380,Image SLES15-SP4-Micro-5-4-EC2-2020-3380,Image SLES15-SP4-Micro-5-4-GCE-2020-3380,SUSE-2020-3380,SUSE-SLE-Module-Basesystem-15-SP1-2020-3380,SUSE-SLE-Module-Basesystem-15-SP2-2020-3380,SUSE-SLE-Product-HPC-15-2020-3380,SUSE-SLE-Product-SLES-15-2020-3380,SUSE-SLE-Product-SLES_SAP-15-2020-3380",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,22 @@
     "Relationships": [
       {
         "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal-rt/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
         "RelatesToProductReference": "Container rancher/elemental-teal/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Container rancher/elemental-teal/5.4:latest",
         "RelationType": "Default Component Of"
       },
       {
@@ -105,7 +120,32 @@
       },
       {
         "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wpa_supplicant-2.9-4.20.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -330,7 +370,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -342,7 +385,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -382,7 +430,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -394,7 +445,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -430,7 +486,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -442,7 +501,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -478,7 +542,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -490,7 +557,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -538,7 +610,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -550,7 +625,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -601,7 +681,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -613,7 +696,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -660,7 +748,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -672,7 +763,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -739,7 +835,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -751,7 +850,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -806,7 +910,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -818,7 +925,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -865,7 +977,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -877,7 +992,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -924,7 +1044,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -936,7 +1059,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -983,7 +1111,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -995,7 +1126,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1042,7 +1178,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1054,7 +1193,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1093,7 +1237,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1105,7 +1252,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1141,7 +1293,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1153,7 +1308,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1189,7 +1349,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1201,7 +1364,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1237,7 +1405,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1249,7 +1420,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1293,7 +1469,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1305,7 +1484,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1349,7 +1533,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1361,7 +1548,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1405,7 +1597,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1417,7 +1612,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1461,7 +1661,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1473,7 +1676,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",
@@ -1517,7 +1725,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container rancher/elemental-teal-rt/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal-rt/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container rancher/elemental-teal/5.3:latest:wpa_supplicant-2.9-4.20.1",
+            "Container rancher/elemental-teal/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.3:latest:wpa_supplicant-2.9-4.20.1",
             "Container suse/sle-micro-rancher/5.4:latest:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3-Azure:wpa_supplicant-2.9-4.20.1",
@@ -1529,7 +1740,12 @@
             "Image SLES15-SP4-Micro-5-3-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-3:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-GCE:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4-EC2:wpa_supplicant-2.9-4.20.1",
+            "Image SLES15-SP4-Micro-5-4-GCE:wpa_supplicant-2.9-4.20.1",
             "Image SLES15-SP4-Micro-5-4:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-ESPOS:wpa_supplicant-2.9-4.20.1",
             "SUSE Linux Enterprise High Performance Computing 15-LTSS:wpa_supplicant-2.9-4.20.1",

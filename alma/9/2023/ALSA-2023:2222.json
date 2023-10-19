@@ -8,9 +8,21 @@
     "$date": 1683590400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_2_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_2_default",
     "packages": [
+      {
+        "name": "conmon",
+        "version": "2.1.7",
+        "release": "1.el9_2",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "conmon-2.1.7-1.el9_2.src.rpm",
+        "filename": "conmon-2.1.7-1.el9_2.aarch64.rpm",
+        "sum": "9a10ace2848d353830d503b469986b9366f4b9bd175e3940337cd5887c428e57",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "conmon",
         "version": "2.1.7",
@@ -20,18 +32,6 @@
         "src": "conmon-2.1.7-1.el9_2.src.rpm",
         "filename": "conmon-2.1.7-1.el9_2.ppc64le.rpm",
         "sum": "00a4b145f234d52a4ac059972f4a9f04c61993a3821b8ea8821b752ac0745169",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "conmon",
-        "version": "2.1.7",
-        "release": "1.el9_2",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "conmon-2.1.7-1.el9_2.src.rpm",
-        "filename": "conmon-2.1.7-1.el9_2.x86_64.rpm",
-        "sum": "3220fb53ca91b8df3d236f33d99fd1b7ae4e6c57ba0f801608ec363326ca5caf",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "2.1.7",
         "release": "1.el9_2",
         "epoch": "2",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "conmon-2.1.7-1.el9_2.src.rpm",
-        "filename": "conmon-2.1.7-1.el9_2.aarch64.rpm",
-        "sum": "9a10ace2848d353830d503b469986b9366f4b9bd175e3940337cd5887c428e57",
+        "filename": "conmon-2.1.7-1.el9_2.x86_64.rpm",
+        "sum": "3220fb53ca91b8df3d236f33d99fd1b7ae4e6c57ba0f801608ec363326ca5caf",
         "sum_type": 5,
         "reboot_suggested": 0
       }
