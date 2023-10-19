@@ -17,6 +17,9 @@
         "Url": "https://github.com/arduino/arduino-create-agent/releases/tag/1.3.3"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43803"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m5jc-r4gf-c6p8"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2023-10-18T18:25:34Z",
     "Severity": "MODERATE",
     "Summary": "Arduino Create Agent path traversal - arbitrary file deletion vulnerability",
-    "UpdatedAt": "2023-10-18T18:25:35Z",
+    "UpdatedAt": "2023-10-19T00:10:08Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
