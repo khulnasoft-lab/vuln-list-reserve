@@ -1,6 +1,6 @@
 {
   "id": "GHSA-fj4x-m62j-wvwg",
-  "modified": "2023-09-29T20:31:51.806359Z",
+  "modified": "2023-10-22T05:25:57.030379Z",
   "published": "2023-09-06T15:30:27Z",
   "aliases": [
     "CVE-2023-37941"
@@ -39,11 +39,6 @@
         "2.1.1rc2",
         "2.1.1rc3"
       ],
-      "ecosystem_specific": {
-        "affected_functions": [
-          ""
-        ]
-      },
       "database_specific": {
         "last_known_affected_version_range": "\u003c= 2.1.0",
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-fj4x-m62j-wvwg/GHSA-fj4x-m62j-wvwg.json"
@@ -62,6 +57,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/6qk1zscc06yogxxfgz2bh2bvz6vh9g7h"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html"
     }
   ]
 }

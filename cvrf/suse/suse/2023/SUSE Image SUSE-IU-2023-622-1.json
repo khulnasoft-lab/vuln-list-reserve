@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2023-10-13T06:26:20Z",
+        "Date": "2023-10-30T07:28:33Z",
         "Description": "current"
       }
     ]
@@ -1968,7 +1968,7 @@
     },
     {
       "CVE": "CVE-2023-26112",
-      "Description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.",
+      "Description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\).\n\n**Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -3955,7 +3955,7 @@
     },
     {
       "CVE": "CVE-2023-4569",
-      "Description": "A memory leak flaw was found in nft_set_catchall_flush in net/netfilter/nf_tables_api.c in the Linux Kernel. This issue may allow a local attacker to cause a double-deactivations of catchall elements, which results in a memory leak.",
+      "Description": "A memory leak flaw was found in nft_set_catchall_flush in net/netfilter/nf_tables_api.c in the Linux Kernel. This issue may allow a local attacker to cause double-deactivations of catchall elements, which can result in a memory leak.",
       "Threats": [
         {
           "Type": "Impact",

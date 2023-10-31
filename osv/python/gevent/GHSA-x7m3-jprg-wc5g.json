@@ -1,12 +1,12 @@
 {
   "id": "GHSA-x7m3-jprg-wc5g",
-  "modified": "2023-10-02T16:33:38.895822Z",
+  "modified": "2023-10-26T05:28:00.057671Z",
   "published": "2023-09-25T12:30:44Z",
   "aliases": [
     "CVE-2023-41419"
   ],
   "summary": "Gevent allows remote attacker to escalate privileges",
-  "details": "An issue in Gevent Gevent before version 23.9.1 allows a remote attacker to escalate privileges via a crafted script to the WSGIServer component.",
+  "details": "An issue in Gevent before version 23.9.0 allows a remote attacker to escalate privileges via a crafted script to the WSGIServer component.",
   "affected": [
     {
       "package": {
@@ -109,11 +109,6 @@
         "22.8.0",
         "23.7.0"
       ],
-      "ecosystem_specific": {
-        "affected_functions": [
-          ""
-        ]
-      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-x7m3-jprg-wc5g/GHSA-x7m3-jprg-wc5g.json"
       }

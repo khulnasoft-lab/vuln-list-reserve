@@ -1,6 +1,6 @@
 {
   "id": "GHSA-v845-jxx5-vc9f",
-  "modified": "2023-10-10T22:01:41.316179Z",
+  "modified": "2023-10-22T05:29:54.594375Z",
   "published": "2023-10-02T23:27:05Z",
   "aliases": [
     "CVE-2023-43804"
@@ -35,11 +35,6 @@
         "2.0.4",
         "2.0.5"
       ],
-      "ecosystem_specific": {
-        "affected_functions": [
-          ""
-        ]
-      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-v845-jxx5-vc9f/GHSA-v845-jxx5-vc9f.json"
       }
@@ -144,11 +139,6 @@
         "1.9",
         "1.9.1"
       ],
-      "ecosystem_specific": {
-        "affected_functions": [
-          ""
-        ]
-      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-v845-jxx5-vc9f/GHSA-v845-jxx5-vc9f.json"
       }
@@ -182,6 +172,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I3PR7C6RJ6JUBQKIJ644DMIJSUP36VDY/"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAGZXYJ7H2G3SB47M453VQVNAWKAEJJ/"
     }
   ]
 }
